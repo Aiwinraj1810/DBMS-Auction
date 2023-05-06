@@ -1,0 +1,63 @@
+.box{
+  border-width: 1px;
+  border-style: solid;
+    display: inline-block;
+    padding-left: 0px;
+    background-color: white;
+    padding-bottom: 10px;
+    width: 165px;
+    transition: transform .2s;
+    color: black;
+    border-radius: 10px;
+    margin-left: 15px;
+    display: inline-block;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5) ;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .box:hover{
+   transform: scale(1.1);
+  }
+  
+  .img1{
+    height: 168px;
+    width: 164.5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    
+    object-fit:cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+  }
+  .title{
+    padding-left: 5px;
+    font-family: Tahoma;
+    font-size: 1.5rem;
+  }
+
+  .toPurchase{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    
+    background-color: black;
+    color: white;
+    font-family:Helvetica;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+    border:none;
+    border-radius: 5px;
+    height: 25px;
+    text-decoration: none;
+  }
+  
+  
+  .toPurchase:hover{
+    background-color: rgb(244, 244, 81);
+    color: black;
+  }
+  
+  .CategorySec{
+    align-items: center;
+  }

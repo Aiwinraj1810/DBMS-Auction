@@ -1,0 +1,32 @@
+.mySlides{
+  height: 350px;
+  width: 350px;
+  padding-top: 0px;
+  padding-left: 0px;
+  
+  object-fit:cover;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.productDetail{
+  margin-left: 35px;
+  display: inline-block;
+  vertical-align: top;
+  transition: transform .2s;
+  margin-top: 20px;
+}
+
+.productDetail:hover{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 9px rgba(0,0,0,0.5);
+}
+
+.prodImg{
+  width: 300px;
+  
+  display: block;
+  object-fit: cover;
+  object-position: right;
+}
